@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"name": "netflixclone",
+			"path": "."
+		},
+		{
+			"name": "asstes",
+			"path": "../asstes"
+		},
+		{
+			"name": "project 3",
+			"path": "../project 3"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "netflixclone",
+		"liveServer.settings.port": 5501
+	}
+}

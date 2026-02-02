@@ -1,0 +1,283 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/51c1d7f7-3179-4a55-93d9-704722898999/be90e543-c951-40d0-9ef5-e067f3e33d16/IN-en-20240610-popsignuptwoweeks-perspective_alpha_website_large.jpg);
+    height: 100vh;
+    background-size: max(1200px, 100vw);
+    background-position: center center;
+    background-repeat: no-repeat;
+    position: relative;
+
+}
+
+.main .box {
+    height: 100vh;
+    width: 100%;
+    opacity: 0.50;
+    position: absolute;
+    top: 0;
+    background-color: black;
+    background-size: max(1000px 100vw);
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 60vw;
+    margin: auto;
+    height: 100px;
+
+}
+
+nav img {
+    position: relative;
+    z-index: 10;
+
+}
+
+nav button {
+    position: relative;
+    z-index: 10;
+}
+
+.hero {
+
+    height: calc(100% - 100PX);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    position: relative;
+    gap: 23px;
+    padding: 0 29px;
+
+}
+
+span :first-child {
+    font-weight: 900;
+    font-size: 3rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+
+.secound {
+    font-weight: 400;
+    font-size: 24px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.third {
+    font-weight: 400;
+    font-size: 20px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+
+.sepration {
+    background-color: rgb(56, 59, 56);
+    height: 7px;
+}
+
+.btn {
+    padding: 3px 8px;
+    font-weight: 400;
+    background-color: rgba(246, 238, 238, 0);
+    color: white;
+    border-radius: 4px;
+    cursor: pointer;
+    border: 1px solid rgba(255, 255, 255, 0.578);
+    font-family: sans-serif;
+}
+
+.btn-red {
+    background-color: red;
+    color: white;
+    padding: 15px 50px;
+    font-size: 23px;
+    border-radius: 7px;
+    font-weight: bolder;
+
+}
+
+.btn-red-sm {
+    background-color: red;
+    color: white;
+
+}
+
+.main input {
+    padding: 20px 101px 20px 10px;
+    color: rgb(255, 255, 255);
+    font-size: 15px;
+    border-radius: 4px;
+    background-color: rgba(23, 23, 23, 0.7);
+    border: 1px solid rgba(246, 238, 238, 0.5);
+    color: white;
+
+}
+
+.hero-buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    max-width: 70vw;
+    margin: auto;
+    color: white;
+    align-items: center;
+    height: px;
+
+}
+
+@media screen and(max-width: 1300) {
+    .first {
+        flex-wrap: wrap;
+    }
+}
+
+.secimg {
+    position: relative;
+}
+
+.secimg video {
+    width: 34vw;
+    z-index: 9;
+    position: absolute;
+    width: 500px;
+}
+
+.thirdimg {
+    position: relative;
+}
+
+.thirdimg video {
+    width: 34vw;
+    z-index: -1;
+    position: absolute;
+    width: 400px;
+    left: 17%;
+    bottom: 37%;
+}
+
+.secimg img {
+    width: 555px;
+    z-index: 10;
+    position: relative;
+}
+
+.first div:first-child {
+    font-size: 53px;
+    font-weight: 900;
+    gap: 15px;
+    font-family: sans-serif;
+}
+
+.first div :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+}
+
+.first div {
+    display: flex;
+    flex-direction: column;
+    padding: 34px 0;
+}
+
+div .span {
+    font-size: 48px;
+    font-weight: bolder;
+
+}
+
+.sectext :first-child {
+    font-size: 45px;
+    font-weight: 900;
+    font-family: sans-serif;
+    max-width: 960px;
+    flex-direction: row;
+}
+
+.textfour {
+    gap: 10px;
+}
+
+.textfour :first-child {
+    font-size: 41px;
+    font-weight: 900;
+    font-family: sans-serif;
+    gap: 10px;
+}
+
+.faq {
+    background-color: black;
+    color: white;
+
+}
+
+.faq h2 {
+    text-align: center;
+    font-size: 48px;
+
+}
+
+.faqbox {
+    display: flex;
+    background-color: rgba(128, 128, 128, 0.451);
+    padding: 24px;
+    max-width: 70vw;
+    margin: 34px auto;
+    justify-content: space-between;
+    cursor: pointer;
+    font-size: 30px;
+    transition: all 1s ease-out;
+    color: white;
+}
+
+.faqbox:hover {
+    background-color: #504f4f;
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    color: white;
+    padding: 14px;
+}
+
+.footer-itam {
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+
+}
+
+footer {
+    color: white;
+    margin: auto;
+    max-width: 60vw;
+}
+
+.footer a {
+    font-size: 14px;
+    color: white;
+}
+
+.question {
+    padding: 34px 0;
+}
